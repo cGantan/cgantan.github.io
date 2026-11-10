@@ -5,57 +5,32 @@ import webflow from '@/assets/logos/webflow.svg';
 
 export const resume = {
   eyebrow: 'Resume',
-  title: '10+ years shaping digital products through UX, UI, and',
-  highlight: 'systems thinking.',
-  text: 'My work centres on product clarity: bringing structure to messy workflows, overloaded interfaces, and growing systems that need to scale without becoming harder to use.',
+  title: 'In Progress',
+  highlight: '',
+  text: 'Resume page coming soon!',
   snapshot: [
-    { label: 'Location', value: 'Lisbon, Portugal' },
-    { label: 'Focus', value: 'UX and product design' },
-    { label: 'Specialties', value: 'Dashboards, workflows, design systems' },
-    { label: 'Languages', value: 'English, Portuguese, Romanian' },
+    { label: 'Location', value: 'California, USA' },
+    { label: 'Focus', value: 'Social Innovation, Health and Data' },
+    { label: 'Specialties', value: 'Workflows, Data Analysis, Design Thinking' },
   ],
   experience: [
     {
-      role: 'Lead Product Designer',
-      company: 'Independent',
-      period: '2021 - Present',
-      text: 'Leading interface design, product strategy, and design systems work for SaaS and service platforms across legal, nonprofit, and property.',
-    },
-    {
-      role: 'Senior Product Designer',
-      company: 'Northbound Studio',
-      period: '2017 - 2021',
-      text: "Designed workflows, dashboards, and multi-platform products for startup and enterprise clients. Built the studio's shared component library.",
-    },
-    {
-      role: 'UI/UX Designer',
-      company: 'In-house product teams',
-      period: '2014 - 2017',
-      text: 'Built core interface patterns, user flows, and production-ready visual systems for web and mobile products.',
+      role: 'Design Engineering Intern',
+      company: 'Advantest',
+      period: 'May - July 2022',
+      text: 'Hardware Design & Integration - designed digital circuits interconnect schematic for automated test equipment (ATE).',
     },
   ],
   capabilities: [
     {
-      title: 'Product strategy',
-      text: 'Framing problems, prioritizing experience decisions, and aligning product goals with user value.',
-    },
-    {
-      title: 'UI systems',
-      text: 'Interface languages that scale across flows, features, and implementation teams.',
-    },
-    {
-      title: 'Execution',
-      text: 'Wireframes through high-fidelity UI, refinement, and developer-ready handoff.',
+      title: 'Skills here',
+      text: 'description here',
     },
   ],
   education: [
-    { title: 'MA, Interaction Design', place: 'University of the Arts', period: '2014' },
-    { title: 'BA, Visual Communication', place: 'National University of Arts', period: '2012' },
+    { title: 'BS, Electrical Engineering and Computer Science', place: 'University of California, Berkeley', period: '2023' },
   ],
   tools: [
     { name: 'Figma', logo: figma, dark: false },
-    { name: 'Framer', logo: framer, dark: true },
-    { name: 'Webflow', logo: webflow, dark: false },
-    { name: 'Shopify', logo: shopify, dark: false },
   ],
 };
