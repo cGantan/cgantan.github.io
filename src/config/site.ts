@@ -4,21 +4,21 @@ export interface NavLink {
 }
 
 export const siteConfig = {
-  name: 'Maria',
-  title: 'Maria - Product designer portfolio',
+  name: 'Claire Gantan',
+  title: 'Claire - Deveng portfolio',
   description:
-    'Maria is a product designer who turns dense workflows and fuzzy requirements into clear, trustworthy digital products. Selected work, case studies, and resume.',
-  siteUrl: 'https://maria.xocoweb.workers.dev',
+    'Claire Gantan portfolio. Selected work and resume.',
+  siteUrl: 'https://cgantan.github.io',
   language: 'en',
   locale: 'en_US',
   dateLocale: 'en-US',
   socialImage: '/og-image.png',
 
   author: {
-    name: 'Maria Ionescu',
-    role: 'Product Designer',
-    location: 'Lisbon, Portugal',
-    email: 'hello@example.com',
+    name: 'Claire Gantan',
+    role: 'Social Innovation Engineer',
+    location: 'California, USA',
+    email: '',
   },
 
   /** The pill above the homepage headline. Set `enabled: false` to remove it. */
@@ -28,7 +28,7 @@ export const siteConfig = {
   },
 
   /** The button at the end of the header and in the mobile menu. */
-  action: { label: 'Get in touch', href: 'mailto:hello@example.com' },
+  action: { label: 'Get in touch', href: 'mailto: ' },
 
   /** A PDF in `public/`, offered on the resume page. Leave empty to hide the button. */
   resumePdf: '',
@@ -40,17 +40,18 @@ export const siteConfig = {
 
   socials: [
     { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
-    { label: 'Dribbble', href: 'https://dribbble.com/' },
-    { label: 'Behance', href: 'https://www.behance.net/' },
-    { label: 'Instagram', href: 'https://www.instagram.com/' },
   ] satisfies NavLink[],
+    
+     /**{ label: 'Dribbble', href: 'https://dribbble.com/' },
+    { label: 'Behance', href: 'https://www.behance.net/' },
+    { label: 'Instagram', href: 'https://www.instagram.com/' }, */
 };
 
 export const navigation: NavLink[] = [
   { label: 'Work', href: '/work/' },
   { label: 'About', href: '/about/' },
-  { label: 'Resume', href: '/resume/' },
 ];
+/**{ label: 'Resume', href: '/resume/' }, */
 
 export const legalLinks: NavLink[] = [
   { label: 'Privacy', href: '/privacy/' },

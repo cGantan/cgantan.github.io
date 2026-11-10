@@ -1,39 +1,36 @@
 export const about = {
   eyebrow: 'About',
-  title: 'I make complicated things feel',
-  highlight: 'clear and easy to use.',
-  text: "I'm Maria, a product designer focused on turning dense workflows, fuzzy requirements, and overloaded interfaces into experiences people can navigate with confidence.",
-  portraitAlt: 'Portrait of Maria smiling at her desk',
+  title: 'Engineering',
+  highlight: 'where it matters most',
+  text: "My name is Claire, and I am an electircal engineer and data scientist working in the intersection of health, systems change and social impact.",
+  portraitAlt: 'Portrait of Claire',
   sections: [
     {
       title: 'Background',
       paragraphs: [
-        "Over the last ten years I've worked across SaaS, operations platforms, and internal tools, where the design challenge is rarely about making something look good. More often it's about helping people understand what matters, what to do next, and why the product deserves their trust.",
-        'I sit somewhere between product thinking, systems design, and interface craft. I care about hierarchy, pacing, and the small decisions that make an experience feel intentional rather than merely complete.',
+        'My past experiences summary',
+        'Academic/technical experience',
+        'community and service-oriented work',
       ],
     },
     {
-      title: 'How I work',
+      title: 'Current Work',
       paragraphs: [
-        'I work best in the messy middle: when requirements are incomplete, the product has started to sprawl, and the team needs someone to create clarity without oversimplifying the problem.',
-        'That usually means stepping back to understand the structure of the experience, deciding what deserves attention first, and building a visual system strong enough to carry that logic all the way to the final UI.',
-      ],
+        'The main strengths I find myself leaning on in my current work include empathy, learning to listen for what people are needing and wanting, organizational skills and conflict resolution. I also utilize my experience in programming, hardware design, and robotics. The tasks that bring me the most energy and satisfaction is when there is a direct “why” behind a project, and interacting with and including community feedback within the design process. I really enjoy prototyping and problem solving and getting to work on a project from the ground up. I am most proud of the times where I have pivoted projects for the benefit of the communities impacted or advocated for more community feedback, including working with the Berkeley WIC program to propose a program for undocumented families, and working with a nonprofit in the DRC during the time of an ebola outbreak.',],
     },
     {
       title: 'Focus',
       paragraphs: [
-        "I'm most at home in dashboards, workflow tools, AI-assisted interfaces, and products where removing friction has a measurable effect on how confident people feel.",
-        "If something is too dense, too noisy, or too hard to follow, that's usually where I do my best work.",
+        "tbd.",
       ],
     },
   ],
   principles: {
-    title: 'Principles',
+    title: 'Values that shape how I work',
     items: [
-      { title: 'Clarity over cleverness', text: 'If a pattern needs explaining, it needs redesigning.' },
-      { title: 'Design the order', text: 'Sequence and hierarchy do more than any single screen.' },
-      { title: 'Show the work early', text: 'Rough and shared beats polished and late.' },
-      { title: 'Systems, then surfaces', text: 'Good components make good screens inevitable.' },
+      { title: 'Equity', text: 'What communities need to flourish, understanding that history and context matters.' },
+      { title: 'Dignity of the Human Person', text: 'People-first solutions, progress next.' },
+      { title: 'Collaboration', text: 'Designing with and for underserved communities. Reverencing and respecting community agency and power through how I show up.' },
     ],
   },
 };

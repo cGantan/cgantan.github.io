@@ -178,7 +178,7 @@ Colors, shadows, the header height, and the page width are CSS custom properties
   --ink: #121211;
   --body: #3b3b38;
   --muted: #6a6964;
-  --accent: #d4f84a;
+  --accent: #B2AC88;
   --on-accent: #121211;
   /* ... */
 }
