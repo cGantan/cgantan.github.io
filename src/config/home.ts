@@ -5,7 +5,9 @@ export const hero = {
   text: 'Hi! My name is Claire Gantan, and I am a social innovation engineer working in the intersection of health, systems change and service. From streamlining workflows for frontline community health workers to empowering local leaders to make data-backed public health decisions, I co-design human-centered technologies that improve community health outcomes.',
   primary: { label: 'See selected work', href: '/#work' },
   secondary: { label: 'About me', href: '/about/' },
-  facts: [ { value: '_', label: 'fact here' },],
+  facts: [ { value: '2+', label: 'years of full-time volunteer outreach' },
+    { value: '5+', label: 'community-focused projects' },
+  ],
 };
 /**can add this back into hero if you want:
  * facts: [
