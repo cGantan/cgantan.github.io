@@ -54,14 +54,26 @@ export const services = {
 };
 
 export const testimonials = {
-  eyebrow: 'Kind words',
-  title: 'What teams say (in progress)',
+  eyebrow: 'Skills',
+  title: 'What I Bring',
   items: [
     {
       quote:
-        'A quote here.',
-      name: 'person',
-      role: 'role here',
+        'Salesforce',
+      name: 'Salesforce Nonprofit Success Pack (NPSP)',
+      role: 'Data Processor @ Western Dominican Province',
+    },
+    {
+      quote:
+        'FPGA Development',
+      name: 'Process Automation/Efficiency and Data Infrastructure',
+      role: 'Design Engineering Intern @ Advantest',
+    },
+    {
+      quote:
+        'Product R&D',
+      name: 'Affordable Prototype Design for Community Field-Testing',
+      role: 'Project Developer @ Takataka Plastics',
     },
   ],
 };
