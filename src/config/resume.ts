@@ -1,12 +1,9 @@
 import figma from '@/assets/logos/figma.svg';
-import framer from '@/assets/logos/framer.svg';
-import shopify from '@/assets/logos/shopify.svg';
-import webflow from '@/assets/logos/webflow.svg';
 
 export const resume = {
   eyebrow: 'Resume',
   title: 'In Progress',
-  highlight: '',
+  highlight: '.',
   text: 'Resume page coming soon!',
   snapshot: [
     { label: 'Location', value: 'California, USA' },
